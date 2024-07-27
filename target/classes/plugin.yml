@@ -1,0 +1,17 @@
+name: Gift
+version: '1.0-Gift'
+main: com.DontSink.Gift
+api-version: '1.21'
+commands:
+  saveGift:
+    description: "用于保存物品栏内的物品作为礼包"
+    permission: Gift.Main
+  getGift:
+    description: "用于领取礼包"
+    permission: Gift.Main.get
+  setTimeGift:
+    description: "用于设置礼包CD"
+    permission: Gift.Main
+  setNumGift:
+    description: "用于设置礼包领取次数"
+    permission: Gift.Main
